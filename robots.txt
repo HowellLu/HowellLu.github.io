@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://HowellLu.github.io/al-folio/sitemap.xml
+Sitemap: https://HowellLu.github.io/sitemap.xml
