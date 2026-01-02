@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am broadly interested in interactive statistical tools and on determining how population level effects and insights can be reliably transported to model individual attributes and guide individual decision-making. This manifests in projects and interests which specifically involve: Bayesian non-parametric statistics, causal inference, longitudinal data, transportability, high dimensional data, sequence history analysis and functional data analysis. These interests combine into this general research question: How can one capture and model longitudinal heterogeneity, especially when conditioned on unreliably captured individual attributes and having to transport causal effects from varying studies? 
+I am broadly interested in interactive statistical tools and on determining how population level effects and insights can be reliably transported to model individual attributes and guide individual decision-making. This manifests in projects and interests which specifically involve: Bayesian non-parametric statistics, causal inference, longitudinal data, transportability, high dimensional data, sequence history analysis and functional data analysis. These interests combine into this general research question: *How can one capture and model longitudinal heterogeneity, especially when conditioned on unreliably captured individual attributes and having to transport causal effects from varying studies?* 
 
 Some fields that I am currently exploring are personalized health and decision science.
 
