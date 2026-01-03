@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 6
+title: Simply Included
 description: A Python Library
 img:
 importance: 6
