@@ -411,7 +411,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-analyzing-life-outcomes-utilizing-cfda-within-a-survival-analysis-framework",
           title: 'Analyzing Life Outcomes Utilizing CFDA within a Survival Analysis Framework',
-          description: "with background image",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
