@@ -1,7 +1,7 @@
 ---
 layout: page
 title: project 6
-description: a project with no image
+description: A Python Library
 img:
 importance: 6
 category: fun
