@@ -24,7 +24,7 @@ One cannot utilize every possible sequence as that would lead to sparsity and ov
 
 CFDA on Normalized Sequences performed the best out of all 3 experiments and was able to partially capture some of the variation within distinct sequences. For example, someone who lived with their parents for 8 years and then lived alone for two would be different than one who lived with their parents for 2 years and alone for 8. This variation that would be captured with CFDA Principal Components and can be utilized for prediction, thereby yielding better estimates. 
 
-<center>
+
 
 | Model | Training AIC | Testing AUC |
 |:---|---:|---:|
@@ -32,7 +32,7 @@ CFDA on Normalized Sequences performed the best out of all 3 experiments and was
 | Regression on PAM on LCS on DSS | 5,170 | 0.8209 |
 | Regression on CFDA FPCs | 5,026 | 0.8375 |
 
-</center>
+
 
 <div style="text-align: center;" markdown="1">
 
