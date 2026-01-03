@@ -6,7 +6,6 @@ img: assets/img/CFDAImage.jpg
 importance: 1
 category: fun
 related_publications: false
-pdf: assets/pdf/example_pdf.pdf
 ---
 
 Abstract: We extend the usage of Categorical Functional Data Analysis (CFDA) onto the biofam dataset utilizing a Discrete-Time Hazards Model onto past sequence history data at differing periods along an individual’s lifespan to predict a terminal outcome within the next time state. To enable CFDA onto different sequences lengths within a hazard dataset, we normalize sequence lengths using trajectory’s relative duration. In addition, CFDA is compared against traditional methods such as Distinct Successive States (DSS) with Partition around Medoids (PAM) and a regression of the outcome variable against all distinct state sequences at given times.
