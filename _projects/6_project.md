@@ -13,23 +13,9 @@ I proposed a genetic algorithm. The first step would be to throw out random poin
 
 Given that I haven't really quite seen an easy plug and play library that did this, I created a python library for this method. The link is below.
 
-<a href="https://pypi.org/project/simplyincluded/" class="btn-standard" target="_blank" rel="noopener noreferrer">
-  Check out the library
-</a>
 
-<style>
-.btn-standard {
-  background-color: #222;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-family: sans-serif;
-  font-weight: 500;
-  display: inline-block; /* Check out the library */
-}
+<div style="text-align: center;" markdown="1">
 
-.btn-standard:hover {
-  background-color: #555;
-}
-</style>
+<a href="https://pypi.org/project/simplyincluded/" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Library</a>
+
+</div>
