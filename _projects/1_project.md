@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Analyzing Life Outcome Trajectories Utilizing CFDA within a Survival Analysis Framework
+title: Analyzing Life Outcomes Utilizing CFDA within a Survival Analysis Framework
 description: with background image
 img: assets/img/CFDAImage.png
 importance: 1
