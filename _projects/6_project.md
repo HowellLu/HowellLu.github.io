@@ -2,7 +2,7 @@
 layout: page
 title: Simply Included
 description: A Python Library
-img:/assets/img/reddit.jpg
+img:
 importance: 6
 category: fun
 ---
