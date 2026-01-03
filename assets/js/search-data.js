@@ -409,8 +409,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-analyzing-life-outcome-trajectories-utilizing-categorical-functional-data-analysis-within-a-survival-analysis-framework",
-          title: 'Analyzing Life Outcome Trajectories Utilizing Categorical Functional Data Analysis within a Survival Analysis...',
+          section: "News",},{id: "projects-analyzing-life-outcome-trajectories-utilizing-cfda-within-a-survival-analysis-framework",
+          title: 'Analyzing Life Outcome Trajectories Utilizing CFDA within a Survival Analysis Framework',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
