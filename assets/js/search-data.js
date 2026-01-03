@@ -441,7 +441,7 @@ ninja.data = [{
               window.location.href = "/projects/6_project/";
             },},{id: "projects-lexical-similarity-analysis",
           title: 'Lexical Similarity Analysis',
-          description: "with background image",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-crypto-anomaly-detection-with-ripple",
