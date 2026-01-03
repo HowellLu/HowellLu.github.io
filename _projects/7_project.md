@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 7
+title: Lexical Similarity Analysis
 description: with background image
 img: assets/img/reddit.jpg
 importance: 7
