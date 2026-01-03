@@ -439,8 +439,8 @@ ninja.data = [{
           description: "A Python Library",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
+            },},{id: "projects-lexical-similarity-analysis",
+          title: 'Lexical Similarity Analysis',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
