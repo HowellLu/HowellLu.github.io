@@ -8,7 +8,9 @@ category: fun
 related_publications: false
 ---
 
-*Do Transgendered persons communicate more like their birth gender or their preferred gender?* This paper attempt to answer that. I scraped nearly half a million Reddit comments from four different cohorts: Cisgendered Males, Cisgendered females, Transgender males and Transgender females. This was proceeded by utilization of WordScore and Jensen-Shannon Divergence to measure distance between the 4 corpora. In addition, data was split into train-test splits and I tested how useful Random Forest was for classification. 
+*Do Transgendered persons communicate more like their birth gender or their preferred gender?* 
+
+This paper attempts to answer that. I scraped nearly half a million Reddit comments from four different cohorts: Cisgendered Males, Cisgendered females, Transgender males and Transgender females. This was proceeded by utilization of WordScore and Jensen-Shannon Divergence to measure distance between the 4 corpora. In addition, data was split into train-test splits and I tested how useful Random Forest was for classification. 
 
 <div style="text-align: center;" markdown="1">
 
