@@ -30,5 +30,3 @@ CFDA on Normalized Sequences performed the best out of all 3 experiments and was
 | Regression on PAM on LCS on DSS | 5,170 | 0.8209 |
 | Regression on CFDA FPCs | 5,026 | 0.8375 |
 
-
-{% endraw %}
