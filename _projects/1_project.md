@@ -35,6 +35,6 @@ CFDA on Normalized Sequences performed the best out of all 3 experiments and was
 
 <div style="text-align: center;" markdown="1">
 
-<a href="/assets/pdf/example_pdf.pdf" target="_blank" class="btn btn-sm z-depth-0" role="button">Download PDF</a>
+<a href="/assets/pdf/example_pdf.pdf" target="_blank" class="btn btn-lg z-depth-0" role="button">Download PDF</a>
 
 </div>
