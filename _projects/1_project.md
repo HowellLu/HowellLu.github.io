@@ -23,10 +23,15 @@ One cannot utilize every possible sequence as that would lead to sparsity and ov
 3.) Using CFDA (Categorical Functional Data Analysis) on every individual's person-period state and normalizing each sequence to be of the same length and utilizing the CFDA principal components as predictors. 
 
 CFDA on Normalized Sequences performed the best out of all 3 experiments and was able to partially capture some of the variation within distinct sequences. For example, someone who lived with their parents for 8 years and then lived alone for two would be different than one who lived with their parents for 2 years and alone for 8. This variation that would be captured with CFDA Principal Components and can be utilized for prediction, thereby yielding better estimates. 
+<div align="center">
 
 | Model | Training AIC | Testing AUC |
 |:---|---:|---:|
 | Regression on DSS | 5,180 | 0.8202 |
 | Regression on PAM on LCS on DSS | 5,170 | 0.8209 |
 | Regression on CFDA FPCs | 5,026 | 0.8375 |
+
+</div>
+
+<a href="/assets/pdf/example_pdf.pdf" target="_blank" class="btn btn-sm z-depth-0" role="button">Download PDF</a>
 
