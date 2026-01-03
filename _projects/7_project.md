@@ -2,7 +2,7 @@
 layout: page
 title: Lexical Similarity Analysis
 description: 
-img: assets/img/reddit.jpg
+img: assets/img/reddit.jpeg
 importance: 7
 category: fun
 related_publications: false
