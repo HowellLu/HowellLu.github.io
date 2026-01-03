@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Analyzing Life Outcomes Utilizing CFDA within a Survival Analysis Framework
-description: with background image
+description: 
 img: assets/img/CFDAImage.png
 importance: 1
 category: fun
