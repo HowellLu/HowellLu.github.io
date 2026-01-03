@@ -451,7 +451,7 @@ ninja.data = [{
               window.location.href = "/projects/8_project/";
             },},{id: "projects-the-metropolis-algorithm-for-expectations",
           title: 'The Metropolis Algorithm for Expectations',
-          description: "A Website",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
