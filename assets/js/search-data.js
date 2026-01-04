@@ -444,8 +444,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-",
-          title: '',
+            },},{id: "projects-crypto-anomaly-detection-with-ripple",
+          title: 'Crypto-Anomaly detection with Ripple',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
