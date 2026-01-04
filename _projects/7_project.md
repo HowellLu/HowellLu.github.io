@@ -14,6 +14,6 @@ This paper attempts to answer that. I scraped nearly half a million Reddit comme
 
 <div style="text-align: center;" markdown="1">
 
-<a href="/assets/pdf/Lexicon-based Similarity Analysis between Transgendered groups and Cisgendered groups on Reddit.pdf" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
+<a href="/assets/pdf/Lexicon-based%Similarity%Analysis%between%Transgendered%groups%and%Cisgendered%groups%on%Reddit.pdf" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
 
 </div>
