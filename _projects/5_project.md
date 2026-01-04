@@ -14,6 +14,6 @@ This was a project that utilized mostly IPEDS and NCES data and attempted to be 
 
 <div style="text-align: center;" markdown="1">
 
-<a href="www.mycollegevoyage.com" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Website</a>
+<a href="https://www.mycollegevoyage.com" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Website</a>
 
 </div>
