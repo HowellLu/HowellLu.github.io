@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://HowellLu.github.io/sitemap.xml
+Sitemap: https://howelllu.com/sitemap.xml
