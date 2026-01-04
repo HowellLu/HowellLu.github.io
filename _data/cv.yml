@@ -48,12 +48,17 @@
 
 
 - title: Academic Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Topic 1.
-    - title: Topic 2.
-    - title: Topic 1.
-    - title: Topic 2.
+    - title: Bayesian non-parametric statistics
+    - title: Causal Inference
+    - title: Longitudinal Data
+    - title: Transportability
+    - title: High Dimensional Data
+    - title: Sequence History Analysis 
+    - title: Functional Data Analysis
+    - title: Interactive Statistics  
+    
 
 
 
