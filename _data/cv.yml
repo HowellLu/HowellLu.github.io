@@ -50,14 +50,14 @@
 - title: Academic Interests
   type: list
   contents:
-    - title": Bayesian non-parametric statistics"
-    - title": Causal Inference"
-    - title": Longitudinal Data"
-    - title": Transportability"
-    - title": High Dimensional Data"
-    - title": Sequence History Analysis" 
-    - title": Functional Data Analysis"
-    - title": Interactive Statistics"  
+    - "title: Bayesian non-parametric statistics"
+    - "title: Causal Inference"
+    - "title: Longitudinal Data"
+    - "title: Transportability"
+    - "title: High Dimensional Data"
+    - "title: Sequence History Analysis" 
+    - "title: Functional Data Analysis"
+    - "title: Interactive Statistics"  
     
 
 
