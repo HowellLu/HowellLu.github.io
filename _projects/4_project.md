@@ -30,7 +30,7 @@ Here is the website:
 
 <div style="text-align: center;" markdown="1">
 
-<a href="www.ismydegreeworthit.com" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
+<a href="https://www.ismydegreeworthit.com" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the website</a>
 
 </div>
 
