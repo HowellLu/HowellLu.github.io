@@ -2,7 +2,7 @@
 layout: page
 title: Crypto-Anomaly detection with Ripple 
 description: 
-img:
+img:assets/img/bitcoin.png
 importance: 8
 category: fun
 giscus_comments: false
