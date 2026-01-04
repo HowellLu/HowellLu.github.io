@@ -38,8 +38,7 @@
       institution: Mega ICBC
       year: 2023-2025
       description:
-        - Architected terabyte-scale ETL pipelines and automated data interrogation frameworks using Python and MS SQL Server, engineering a parallel compliance workflow to execute end-to-end testing for real-
-time SWIFT and Fedwire integrations.
+        - Architected terabyte-scale ETL pipelines and automated data interrogation frameworks using Python and MS SQL Server, engineering a parallel compliance workflow to execute end-to-end testing for real-time SWIFT and Fedwire integrations.
         - Developed statistical validation frameworks utilizing Chi-Squared, Mann-Whitney U, and Kolmogorov- Smirnov tests to quantify distributional shifts between legacy SWIFT MT and converted MX formats, successfully identifying critical data anomalies.
         - Served as Technical Lead for the ISO 20022 migration, translating complex data discrepancies into actionable insights for senior management and external vendors to drive workflow optimization.
     - title: Teaching Assistant
