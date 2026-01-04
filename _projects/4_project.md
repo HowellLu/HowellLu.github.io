@@ -1,80 +1,36 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Is My Degree Worth It?
+description: A Website
+img: assets/img/imdwi.jpg
 importance: 4
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+What is the economic value of a college degree and how does it differ for different individuals? This website attempts to solve this and was inspired by the paper: “Is College Worth It” by Douglas A. Webber. It required three components:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+1.)	The calculation of an individual’s lifetime earnings in their original timeline. This is generated using the real-life salaries of those who had graduated from specific programs utilizing data from the College Scorecard and the American Community Survey (AVS).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+2.)	The calculation of an individual’s counter-factual timeline. This is the calculation of how much the individual would have made if they had decided not to go to college, given their specific career choices, using the American Community Survey salary figures. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+3.)	Modifications to the timeline to account for individual traits. I calculated modifications for the lifetime earnings of an individual who did not go to college using a Random Forest estimator. It was trained on the NLSY79 dataset and it computed the Ratio of: Individual’s Salary while Controlling for all given individual attributes / The Individual’s Salary while only controlling for a career path. This ratio would be applied to the calculation of an individual’s lifetime earnings without a college degree.
+
+In retrospect, quite a bit could have been improved. There is a lot of poorly modelled heterogeneity and quite a lot of unmeasured heterogeneity among other issues. Here are some of the most obvious ones which spring to mind. 
+
+1.)	Transportability issues with time delays:  This is a pretty large issue given that the NLSY79 cohort was going to college in the late 90s, but the College Scorecard creates projections starting from the current day. Income projections and even personality measures may have changed in the last 20 years. 
+2.)	Lack of data: There just isn’t enough data within the NLSY79 to account for all career trajectories, thereby we cannot capture that heterogeneity. Narcissism would increase the earnings of an actor significantly, but would not significantly impact or reduce the salary of an Air Traffic Controller. 
+3.)	Poor data collection: Just generally something which frequently occurs in the ACS. There would often be physicians with only a high school degree and construction workers who were over 100 years old. I removed the most egregious abnormalities, but the data is not very clean.  
+4.)	Did not use non-parametric statistical techniques and I did not model the parameters: I utilized a regression with second order interactions, simply because the American Community Survey was as over 3 million rows. However, I should’ve definitely used something closer to BART (Bayesian Additive Regression Trees) and dealt with the computational training demands by using cloud compute. 
+5.)	No adjustment for the lifetime earnings of the individual if they go to college: It felt as if there simply wasn’t data to make that computation because of the amount of sparsity within the NSLY79 dataset. Let’s assume that a user wishes to calculate the difference that extreme grittiness makes for an MIT educated mathematics major. The NLSY79 would not have a parameter that measures highly selective colleges nor would it have sufficient data to infer what type of effect grit would make for this specific college path. I likely would need to use another data source.
+
+
+I feel the most strongly about this project out of the all of the other ones because I believe this was the most ambitious question I've worked on and I used a series of kludges to make it all work. If I were to return to this, I would use much better statistical models and have designed it a very different way. 
+
+Here is the website: 
+
+<div style="text-align: center;" markdown="1">
+
+<a href="www.ismydegreeworthit.com" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
+
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
