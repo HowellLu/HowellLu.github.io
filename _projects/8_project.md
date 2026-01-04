@@ -15,6 +15,6 @@ Abstract: In cryptocurrency markets, the price of crypto assets can diverge acro
 
 <div style="text-align: center;" markdown="1">
 
-<a href="/assets/pdf/Crypto%Anomaly%Detection.pdf" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
+<a href="/assets/pdf/CryptoPaper.pdf" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
 
 </div>
