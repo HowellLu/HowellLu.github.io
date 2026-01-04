@@ -2,7 +2,7 @@
 layout: page
 title: Is My Degree Worth It?
 description: A Website
-img: assets/img/imdwi.jpg
+img: assets/img/imdwi.png
 importance: 4
 category: fun
 ---
