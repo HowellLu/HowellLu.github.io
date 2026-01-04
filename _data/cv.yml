@@ -4,4 +4,60 @@
     - name: Full Name
       value: Howell Lu
 
+- title: Education
+  type: time_table
+  contents:
+    - title: Post-Master’s Graduate Coursework
+      institution: New York University
+      year: 2025
+      description:
+        - Expected Coursework: Probability (Measure-Theoretic), Statistical Inference
+        - Selected Coursework: Multi-Level Modelling and Consulting Practicum 
+    - title: MS in Data Science
+      institution: New York University
+      year: 2023
+      description:
+        - Selected Coursework: Optimization and Computational Linear Algebra, Advanced Python for Data Science, Causal Inference, Machine Learning, Introduction to Computer Vision, Text as Data, Big Data, Digital Currencies 
+    - title: MA in Applied Mathematics
+      institution: York University
+      year: 2021
+      description:
+        - Selected Coursework: Stochastic Processes, Mathematical Statistics, Differential Equations, Regression Analysis 
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: New York University
+      year: 2025
+      description:
+        - Researched under Dr. Hill to investigate and evaluate the feasibility, implications and limitations of GPU-accelerated BART (Bayesian Additive Regression Trees) and other parallel BART engines.
+        - Researched under Dr. Scott to analyze and investigate the applicability of CFDA (Categorical Functional Data Analysis) on messy sequential data.
+    - title: Data Analyst
+      institution: Mega ICBC
+      year: 2023-2025
+      description:
+        - Architected terabyte-scale ETL pipelines and automated data interrogation frameworks using Python and MS SQL Server, engineering a parallel compliance workflow to execute end-to-end testing for real-time SWIFT and Fedwire integrations.
+        - Developed statistical validation frameworks utilizing Chi-Squared, Mann-Whitney U, and Kolmogorov- Smirnov tests to quantify distributional shifts between legacy SWIFT MT and converted MX formats, successfully identifying critical data anomalies.
+        - Served as Technical Lead for the ISO 20022 migration, translating complex data discrepancies into actionable insights for senior management and external vendors to drive workflow optimization.
+    - title: Teaching Assistant
+      institution: New York University
+      year: 2022
+      description:
+      - Designed assessments, solutions, rubrics and lab materials using LaTeX, conducted lab lectures and held office hours for two weekly lab sections.
+
+
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
 
