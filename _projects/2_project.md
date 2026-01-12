@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Parallelizing Bayesian Trees - Algorithmic Insights from GPU BART
-description: Somewhat of WIP
+description:
 img: assets/img/bartpicture.png
 importance: 2
 category: fun
