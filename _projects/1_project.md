@@ -36,7 +36,7 @@ CFDA on Normalized Sequences performed the best out of all 3 experiments and was
 
 <div style="text-align: center;" markdown="1">
 
-<a href="/assets/pdf/Analyzing_Life_Outcome_Trajectories_Utilizing_Categorical_Functional_Data_Analysis_within_a_Survival_Analysis_Framework_.pdf" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
+<a href="/assets/pdf/Analyzing_Life_Outcomes_CFDA.pdf" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
 
 </div>
 
