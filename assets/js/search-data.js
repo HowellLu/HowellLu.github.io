@@ -416,7 +416,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-parallelizing-bayesian-trees-algorithmic-insights-from-gpu-bart",
           title: 'Parallelizing Bayesian Trees - Algorithmic Insights from GPU BART',
-          description: "Somewhat of WIP",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-my-relationship-future",
