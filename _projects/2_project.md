@@ -12,7 +12,7 @@ Abstract: In the past decades, many algorithms have been modified to run on Grap
 
 <div style="text-align: center;" markdown="1">
 
-<a href="/assets/pdf/RedditPaper.pdf" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
+<a href="/assets/pdf/GPU_BART.pdf" target="_blank" class="btn btn-lg z-depth-0" role="button">Check out the Paper</a>
 
 </div>
 
